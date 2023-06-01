@@ -54,11 +54,14 @@ end
 # hint: use puts
 def pet_pun(animal)
     if animal == "cat"
-        puts "Cats are purr-fect!\n"
+        x = "Cats are purr-fect!"
+        puts x
     elsif animal == "dog"
-        puts "Dogs are paw-some!\n"
+        x = "Dogs are paw-some!\n"
+        puts x 
     else
-        puts "I think rabbits have pet-tential!\n"
+        x = "I think rabbits have pet-tential!\n"
+        puts x 
     end
 end
 
